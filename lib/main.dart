@@ -7,6 +7,8 @@ import 'screens/product_screen.dart';
 
 void main() {
   Get.put(ProductController());
+
+
   Get.put(CartController());
 
   runApp(MyApp());
